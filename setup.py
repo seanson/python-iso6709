@@ -25,13 +25,13 @@ def read(*names, **kwargs):
 
 setup(
     name='iso6709',
-    version='0.1.0',
+    version='0.1.1',
     license='BSD',
     description='A library for parsing ISO6709 format Degree Minute Second style coordinates.',
     long_description='%s\n%s' % (
         re.compile('^.. start-badges.*^.. end-badges',
-                   re.M | re.S).sub('', read('README.md')),
-        re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read('CHANGELOG.md'))
+                   re.M | re.S).sub('', read('README.rst')),
+        re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read('CHANGELOG.rst'))
     ),
     author='Sean Johnson',
     author_email='seandavidjohnson@gmail.com',
