@@ -25,7 +25,7 @@ def read(*names, **kwargs):
 
 setup(
     name='iso6709',
-    version='0.1.2',
+    version='0.1.3',
     license='BSD',
     description='A library for parsing ISO6709 format Degree Minute Second style coordinates.',
     long_description='%s\n%s' % (
@@ -38,6 +38,7 @@ setup(
     url='https://github.com/seanson/python-iso6709',
     packages=find_packages('src'),
     package_dir={'': 'src'},
+    data_files=[('', ['CHANGELOG.rst'])],
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
     include_package_data=True,
     zip_safe=False,
