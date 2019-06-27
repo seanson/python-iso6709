@@ -18,7 +18,7 @@ def coords_to_dms_degree(raw_coords):
                 (?P<lng_minutes>\d{2}?)?
                 (?P<lng_seconds>\d{2}?)?
                 (?P<lng_fraction>\.\d+)?
-                (?P<alt>\+\d+)?
+                (?P<alt>[\+\-]\d+)?
     """
     regex = re.compile(re_coord, flags=re.VERBOSE)
     match = regex.match(raw_coords).groupdict()
@@ -51,6 +51,7 @@ class DMSDegree(object):
 
         self.degrees, self.minutes, self.seconds, self.sign = degrees, minutes, seconds, sign
         self.decimal = decimal
+
 
 class Location(object):
     """ A class for parsing and returning data from an ISO 6709 standard string."""
