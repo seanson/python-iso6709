@@ -146,5 +146,23 @@ SAMPLE_DATA = {
             'sign': '+',
         },
         'raw': '+48.8577+002.295/'
+    },
+    'Subterranian Test': {
+        'alt': D('-50'),
+        'lat': {
+            'decimal': D('48.8577'),
+            'degrees': D('48.8577'),
+            'minutes': D('0'),
+            'seconds': D('0'),
+            'sign': '+',
+        },
+        'lng': {
+            'decimal': D('2.295'),
+            'degrees': D('2.295'),
+            'minutes': D('0'),
+            'seconds': D('0'),
+            'sign': '+',
+        },
+        'raw': '+48.8577+002.295-50/'
     }
 }
