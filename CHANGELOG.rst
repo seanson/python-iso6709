@@ -2,6 +2,12 @@
 Changelog
 =========
 
+0.1.4 (2019-06-28)
+------------------
+
+* Add support for negative altitudes (thanks @pistatium!)
+* Bumped development versions for security fixes
+
 0.1.3 (2017-08-25)
 ------------------
 
