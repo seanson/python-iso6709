@@ -12,7 +12,7 @@ This library supports the following DMS formats:
 - ``±DDMM.MMMM±DDDMM.MMMM/`` - Latitude and Longitude in Degrees and Minutes
 - ``±DDMMSS.SSSS±DDDMMSS.SSSS/`` - Latitude and Longitude in Degrees, Minutes and Seconds
 
-As well as the standard altitude/height suffix: ``+AAAA``
+As well as the standard altitude/height suffix: ``±AAAA``
 
 Usage
 =====
