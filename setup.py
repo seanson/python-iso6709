@@ -25,8 +25,8 @@ def read(*names, **kwargs):
 
 setup(
     name='iso6709',
-    version='0.1.4',
-    license='BSD',
+    version='0.1.5',
+    license='BSD-3-Clause',
     description='A library for parsing ISO6709 format Degree Minute Second style coordinates.',
     long_description='%s\n%s' % (
         re.compile('^.. start-badges.*^.. end-badges',
@@ -57,6 +57,7 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
         'Topic :: Utilities',
