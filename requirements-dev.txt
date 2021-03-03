@@ -20,7 +20,6 @@ PyYAML==5.1.1
 readme-renderer==24.0
 requests==2.22.0
 requests-toolbelt==0.8.0
-safety==1.8.5
 six==1.10.0
 tqdm==4.15.0
 twine==1.13.0
